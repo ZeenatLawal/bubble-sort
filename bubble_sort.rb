@@ -15,3 +15,18 @@ def bubble_sort(array)
   end
   array
 end
+
+def bubble_sort_by(array)
+  not_sorted = true
+  while not_sorted
+  i = 0
+  array[i].split()
+  not_sorted = false
+  if array[i].length > array[i + 1].length
+    store = array[i]
+  end
+  i += 1
+  end
+array
+end
+
